@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/animate.css">
+    <script src="./javascripts/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Reverse audio by aqilahmisuary</title>
+</head>
+
+<body>
+    <!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+    <div class="mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title"></span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="http://aqilahmisuary.tumblr.com">About</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Other Projects</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="http://aqilahmisuary.github.io/sequencer/">Sequencer</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <h4>Reverse Audio</h4>
+                <div id="loadingbar">
+                    <h6 class="animated bounce"> Loading audio file </h6>
+                    <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+                </div>
+                <div id="mainContent">
+                    <div>
+                        <div id="btns-location">
+                            <button name="button" id="startBtn" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">play_arrow</i></button>
+                            <button name="button" id="stopBtn" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">stop</i></button>
+                        </div>
+                    </div>
+                    <div class="canvas">
+
+                        <canvas class="visualizer" id="myCanvas" width="800" height="300"></canvas>
+                    </div>
+                </div>
+                <footer>
+                    <h6>Reverse Audio is maintained by <a href="https://github.com/aqilahmisuary">aqilahmisuary</a></h6>
+                    <br>
+                    <br>
+                </footer>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

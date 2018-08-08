@@ -1,0 +1,60 @@
+html {
+    background-color: #F5F5F5;
+}
+
+h4,
+h6,
+span,
+footer {
+    
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+h4,
+h6,
+footer,
+p {
+    text-align: center;
+    margin-top: 28px;
+}
+
+#p2 {
+    width: 28%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#spinner {
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.mdl-layout__header--scroll .mdl-layout__header-row {
+    background-color: black;
+}
+
+button {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+div {
+
+    text-align: center;
+    margin: auto;
+}
+
+#btns-location {
+    margin: 20px;
+    margin-top: 30px;
+}
